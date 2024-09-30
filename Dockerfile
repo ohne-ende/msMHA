@@ -2,5 +2,5 @@ FROM node:latest
 
 WORKDIR /app
 
-RUN git clone https://github.com/ohne-ende/MHA.git
-RUN cd /app/MHA && npm i && npm run build --if-present
+RUN git clone https://github.com/ohne-ende/msMHA.git
+RUN cd /app/msMHA && npm i && npm run build --if-present
